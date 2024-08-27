@@ -227,7 +227,7 @@ a{
 }
 
 .Párrafo_contenido{
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -237,7 +237,7 @@ a{
 }
 
 .Párrafo_contenido_2{
-    display: block;
+    display: flex;
     justify-content:center;
     align-items:initial;
     align-content: center;
@@ -255,21 +255,20 @@ a{
 }
 
 .Contenido_nosotros {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    margin: 0 80px 0 80px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 
 .contenedor_nosotros_1{
     display: flex;
-    margin: 2rem 1rem 2rem 1rem;;
+    margin: 2rem 0rem 2rem 0rem;
     justify-content: center;
     flex-wrap: wrap-reverse;
 }
 
 .contenedor_nosotros_2{
     display: flex;
-    margin: 2rem 1rem 2rem 1rem;
+    margin: 2rem 0rem 2rem 0rem;
     justify-content: center;
     flex-wrap: wrap-reverse;
 }
@@ -282,7 +281,7 @@ a{
     align-items: flex-start;
     background-color: var(--color-octavo);
     border-radius: 20px;
-    width: 35%;
+    width: 30%;
     height: auto;
     font-size: 80%;
     margin: 1rem 0rem 1rem 1rem;
@@ -296,7 +295,7 @@ a{
     align-items: flex-start;
     background-color: var(--color-octavo);
     border-radius: 20px;
-    width: 35%;
+    width: 30%;
     height: auto;
     font-size: 80%;
     margin: 1rem 0rem 1rem 1rem;
@@ -305,12 +304,11 @@ a{
 .text_contenido_3{
     justify-content: center;
     display: inline-block;
-    flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
     align-items: flex-start;
     background-color: var(--color-terciario);
     border-radius: 20px;
-    width: 35%;
+    width: 30%;
     height: auto;
     font-size: 80%;
     margin: 1rem 0rem 1rem 1rem;
@@ -319,12 +317,11 @@ a{
 .text_contenido_4{
     justify-content: center;
     display: inline-block;
-    flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
     align-items: flex-start;
     background-color: var(--color-terciario);
     border-radius: 20px;
-    width: 35%;
+    width: 30%;
     height: auto;
     font-size: 80%;
     margin: 1rem 0rem 1rem 1rem;
