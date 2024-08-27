@@ -187,12 +187,10 @@ a{
     display: flex;
     justify-content:center;
     align-items: center;
-    align-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
-    font-size: none;
     color: var(--color-secundario);
-    font-size: 4rem;
+    font-size: 220%
 }
 
 .presentación{
@@ -246,9 +244,14 @@ a{
     font-size: 100%;
 }
 
+.cards_integrantes{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .card_integrante{
     background-color: var(--color-primario);
-    height: 420px;
+    height: 480px;
     width: 325px;
     overflow: hidden;
     border-radius: 10px;

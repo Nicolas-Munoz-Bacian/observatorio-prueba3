@@ -178,13 +178,14 @@ a{
     display: flex;
     justify-content:center;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: column-reverse;
     position: relative;
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
-    font-size: 100%;
+    font-size: 120%;
     margin: 0.5rem 0rem 0.5rem 0rem;
 }
+
 .Título-destaque{
     color: var(--color-secundario);
 }
@@ -243,60 +244,64 @@ a{
     display: flex;
     justify-content: space-between;
     margin: 2rem 1rem 2rem 1rem;;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .contenedor_nosotros_2{
     display: flex;
     justify-content: space-between;
     margin: 2rem 1rem 2rem 1rem;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .text_contenido_1 {
     justify-content: center;
-    display: flex;
+    display: block;
+    flex-direction: column-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
     width: 50%;
     height: auto;
-    margin: 1rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .text_contenido_2{
     justify-content: center;
     display: block;
+    flex-direction: column-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
     width: 50%;
     height: auto;
-    margin: 1rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .text_contenido_3{
     justify-content: center;
     display: block;
+    flex-direction: column-reverse;
     background-color: var(--color-terciario);
     border-radius: 20px;
     width: 50%;
     height: auto;
-    margin: 1rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .text_contenido_4{
     justify-content: center;
     display: block;
+    flex-direction: column-reverse;
     background-color: var(--color-terciario);
     border-radius: 20px;
     width: 50%;
     height: auto;
-    margin: 1rem 2rem 0rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .Contenido_nosotros {
+    flex-direction: column-reverse;
     justify-content: center;
-    padding: 0 6rem 0 6rem;
-    margin: 0 8rem 0 8rem;
+    margin: 0rem 4rem 0rem 4rem;
 }
 
 .contenido_footer{

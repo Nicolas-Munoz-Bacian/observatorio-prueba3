@@ -177,9 +177,8 @@ a{
     justify-content:center;
     align-items: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
-    font-size: none;
     color: var(--color-secundario);
     font-size: 140%;
 }
@@ -279,11 +278,18 @@ a{
 }
 
 .imagen_2 {
-    width: 50%;
-    height: 240px;
+    width: 60%;
+    height: 200px;
     overflow: hidden;
     margin-right: 20px;
     border-radius: 6px;
+}
+
+.Parrafo_material p{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .contenido_footer{

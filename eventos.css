@@ -172,14 +172,30 @@ a{
 
 }
 
+.Titulo_evento{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-family: var(--fuente-calibri-negrita);
+    font-size: 120%;
+}
+
+.Parrafo_evento{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-family: var(--fuente-calibri);
+    font-size: 100%;
+}
+
 .Título_contenido{
     display: flex;
     justify-content:center;
     align-items: center;
-    align-content: center;
     flex-direction: column;
     font-family: var(--fuente-calibri-negrita);
-    font-size: none;
     color: var(--color-secundario);
     font-size: 200%;
 }

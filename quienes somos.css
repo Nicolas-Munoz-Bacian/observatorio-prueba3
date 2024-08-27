@@ -187,7 +187,7 @@ a{
     justify-content:center;
     align-items: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
     font-size: none;
     color: var(--color-secundario);
@@ -203,7 +203,22 @@ a{
 .presentación_contenido_central{
     display: flex;
     flex-direction:column;
-    margin: 1rem 8rem 0rem 8rem;
+    align-content: center;
+}
+
+.contenido_imagen_centrada{
+    margin: 20px 0px;
+}
+
+.imagen_centrada{
+    width: 50%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: flex-start;
 }
 
 .contenido_quienes_somos{
@@ -240,16 +255,6 @@ a{
     font-family: var(--fuente-calibri-negrita);
     justify-items: center;
     justify-content:center;
-}
-
-.imagen_centrada{
-    width: 650px;
-    height: 450px;
-    overflow: hidden;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    margin: 1rem 3rem 1rem 3rem;;
 }
 
 .contenido_footer{
