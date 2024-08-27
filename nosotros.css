@@ -60,14 +60,14 @@ body {
 
 .menu_contenido{
     display: flex;
-    gap: 6px;
     height: 30%;
     width: auto;
     color: var(--color-primario);
     align-items:center;
     display: flex;
     justify-content:space-between;
-    margin: 2rem 1rem 2rem 1rem;
+    flex-direction: column-reverse;
+    margin: 2rem 1rem 0rem 1rem;
     position: relative;
 }
 
@@ -86,11 +86,12 @@ body {
     border: none;
     border-radius: 10%;
     font-size: 75%;
-    padding: 1rem;
-    margin: auto;
+    padding: 10px;
+    margin: 2px 2px;
     cursor: pointer;
     justify-content: center;
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     flex-flow: column-reverse;
   }
 
@@ -175,15 +176,16 @@ a{
 }
 
 .Título_contenido{
+    position: relative;
     display: flex;
     justify-content:center;
-    align-items: flex-start;
+    align-items:center;
+    flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
-    position: relative;
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
-    font-size: 120%;
-    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 100%;
+    margin: 0.5rem 0rem;
 }
 
 .Título-destaque{
@@ -242,16 +244,16 @@ a{
 
 .contenedor_nosotros_1{
     display: flex;
-    justify-content: space-between;
     margin: 2rem 1rem 2rem 1rem;;
     font-size: 120%;
+    justify-content: center;
 }
 
 .contenedor_nosotros_2{
     display: flex;
-    justify-content: space-between;
     margin: 2rem 1rem 2rem 1rem;
     font-size: 120%;
+    justify-content: center;
 }
 
 .text_contenido_1 {
@@ -260,7 +262,7 @@ a{
     flex-direction: column-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 1rem 2rem 1rem 2rem;
 }
@@ -271,7 +273,7 @@ a{
     flex-direction: column-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 1rem 2rem 1rem 2rem;
 }
@@ -282,7 +284,7 @@ a{
     flex-direction: column-reverse;
     background-color: var(--color-terciario);
     border-radius: 20px;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 1rem 2rem 1rem 2rem;
 }
@@ -293,7 +295,7 @@ a{
     flex-direction: column-reverse;
     background-color: var(--color-terciario);
     border-radius: 20px;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 1rem 2rem 1rem 2rem;
 }
@@ -301,7 +303,8 @@ a{
 .Contenido_nosotros {
     flex-direction: column-reverse;
     justify-content: center;
-    margin: 0rem 4rem 0rem 4rem;
+    padding: 0 1rem 0 1rem;
+    margin: 0 8rem 0 8rem;
 }
 
 .contenido_footer{

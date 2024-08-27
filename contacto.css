@@ -59,14 +59,14 @@ body {
 
 .menu_contenido{
     display: flex;
-    gap: 6px;
     height: 30%;
     width: auto;
     color: var(--color-primario);
     align-items:center;
     display: flex;
     justify-content:space-between;
-    margin: 2rem 1rem 2rem 1rem;
+    flex-direction: column-reverse;
+    margin: 2rem 1rem 0rem 1rem;
     position: relative;
 }
 
@@ -85,11 +85,12 @@ body {
     border: none;
     border-radius: 10%;
     font-size: 75%;
-    padding: 1rem;
-    margin: auto;
+    padding: 10px;
+    margin: 2px 2px;
     cursor: pointer;
     justify-content: center;
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     flex-flow: column-reverse;
   }
 
