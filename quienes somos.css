@@ -230,7 +230,7 @@ a{
 }
 
 .contenido_párrafo{
-    font-size: 20px;
+    font-size: 120%;
     font-family: var(--fuente-calibri-negrita);
     align-items:center;
     justify-content:center;
