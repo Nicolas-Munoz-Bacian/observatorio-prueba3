@@ -84,7 +84,7 @@ body {
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     font-size: 75%;
     padding: 10px;
     margin: 2px 2px;
@@ -178,13 +178,11 @@ a{
 .Título_contenido{
     position: relative;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
     flex-wrap: wrap-reverse;
-    flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
-    font-size: 100%;
+    font-size: 80%;
     margin: 0.5rem 0rem;
 }
 
@@ -247,6 +245,7 @@ a{
     margin: 2rem 1rem 2rem 1rem;;
     font-size: 120%;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 .contenedor_nosotros_2{
@@ -254,12 +253,14 @@ a{
     margin: 2rem 1rem 2rem 1rem;
     font-size: 120%;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 .text_contenido_1 {
     justify-content: center;
-    display: block;
+    display: inline-block;
     flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
     width: 40%;
@@ -269,8 +270,9 @@ a{
 
 .text_contenido_2{
     justify-content: center;
-    display: block;
+    display: inline-block;
     flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     background-color: var(--color-octavo);
     border-radius: 20px;
     width: 40%;
@@ -280,8 +282,9 @@ a{
 
 .text_contenido_3{
     justify-content: center;
-    display: block;
+    display: inline-block;
     flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     background-color: var(--color-terciario);
     border-radius: 20px;
     width: 40%;
@@ -291,8 +294,9 @@ a{
 
 .text_contenido_4{
     justify-content: center;
-    display: block;
+    display: inline-block;
     flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;;
     background-color: var(--color-terciario);
     border-radius: 20px;
     width: 40%;
@@ -301,6 +305,7 @@ a{
 }
 
 .Contenido_nosotros {
+    flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
     justify-content: center;
     padding: 0 1rem 0 1rem;
@@ -331,8 +336,10 @@ a{
 
 .presentación__logo__pastel{
     display: flex;
+    flex-direction: column-reverse;
     width: 25%;
     height:10%;
+    flex-wrap: wrap-reverse;
 }
 
 .presentación__enlaces__iconos{
@@ -340,7 +347,7 @@ a{
     display: flex;
     width: 20%;
     height: 20%;
-    gap: 5px;
+    flex-wrap: wrap-reverse;
 }
 
 .derechos_de_autor_text .p_footer{

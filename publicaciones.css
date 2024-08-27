@@ -82,7 +82,7 @@ body {
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     font-size: 75%;
     padding: 10px;
     margin: 2px 2px;
@@ -178,10 +178,12 @@ a{
     justify-content:center;
     align-items: center;
     align-content: center;
+    flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     font-size: 140%;
+    margin: 0px 60px;
 }
 
 .Título-destaque{
@@ -268,29 +270,44 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    direction: inherit;
+    flex-wrap: wrap-reverse;
     font-family: var(--fuente-calibri);
-    margin:  2rem 2rem 2rem 2rem;
+    margin:  1rem 2rem;
 }
 
 .contenido_2 {
     display: flex;
     justify-content: center;
+    margin: 5px 5px;
 }
 
 .imagen_2 {
     width: 60%;
-    height: 200px;
+    height: 180px;
     overflow: hidden;
-    margin-right: 20px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     border-radius: 6px;
 }
 
-.Parrafo_material p{
+.titulo_material{
+    font-size: 130%;
     display: flex;
+    flex-wrap: wrap-reverse;
     flex-direction: column-reverse;
     overflow: hidden;
     justify-content: center;
+    margin: 0px 5px;
+}
+
+.Parrafo_material{
+    font-size: 80%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0px 5px;
 }
 
 .contenido_footer{
@@ -319,6 +336,7 @@ a{
     flex-direction: column-reverse;
     width: 25%;
     height:10%;
+    flex-wrap: wrap-reverse;
 }
 
 .presentación__enlaces__iconos{
@@ -326,6 +344,7 @@ a{
     display: flex;
     width: 20%;
     height: 20%;
+    flex-wrap: wrap-reverse;
 }
 
 .derechos_de_autor_text .p_footer{

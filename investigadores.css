@@ -83,7 +83,7 @@ body {
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     font-size: 75%;
     padding: 10px;
     margin: 2px 2px;
@@ -322,6 +322,7 @@ a{
     flex-direction: column-reverse;
     width: 25%;
     height:10%;
+    flex-wrap: wrap-reverse;
 }
 
 .presentación__enlaces__iconos{
@@ -329,6 +330,7 @@ a{
     display: flex;
     width: 20%;
     height: 20%;
+    flex-wrap: wrap-reverse;
 }
 
 .derechos_de_autor_text .p_footer{

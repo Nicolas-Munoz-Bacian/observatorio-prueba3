@@ -82,7 +82,7 @@ body {
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     font-size: 75%;
     padding: 10px;
     margin: 2px 2px;
@@ -234,12 +234,16 @@ a{
     font-family: var(--fuente-calibri-negrita);
     align-items:center;
     justify-content:center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     margin: 1rem 8rem 0rem 8rem;
 }
 
 .contenido_alianza_estratégica{
     font-family: var(--fuente-calibri);
     margin: 1rem 8rem 3rem 8rem;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
 }
 
 .contenido_ae_título{
@@ -284,6 +288,7 @@ a{
     flex-direction: column-reverse;
     width: 25%;
     height:10%;
+    flex-wrap: wrap-reverse;
 }
 
 .presentación__enlaces__iconos{
@@ -291,6 +296,7 @@ a{
     display: flex;
     width: 20%;
     height: 20%;
+    flex-wrap: wrap-reverse;
 }
 
 .derechos_de_autor_text .p_footer{

@@ -82,7 +82,7 @@ body {
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     font-size: 75%;
     padding: 10px;
     margin: 2px 2px;
@@ -397,8 +397,10 @@ input::placeholder, textarea::placeholder {
 
 .presentación__logo__pastel{
     display: flex;
+    flex-direction: column-reverse;
     width: 25%;
     height:10%;
+    flex-wrap: wrap-reverse;
 }
 
 .presentación__enlaces__iconos{
@@ -406,7 +408,7 @@ input::placeholder, textarea::placeholder {
     display: flex;
     width: 20%;
     height: 20%;
-    gap: 5px;
+    flex-wrap: wrap-reverse;
 }
 
 .derechos_de_autor_text .p_footer{
