@@ -65,7 +65,7 @@ body {
     display: flex;
     justify-content:space-between;
     flex-direction: column-reverse;
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
     position: relative;
 }
 
@@ -192,7 +192,8 @@ a{
     flex-direction: column-reverse;
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
-    font-size: 130%;
+    font-size: 100%;
+    margin: 2px 5px;
 }
 
 
@@ -203,6 +204,7 @@ a{
     font-family: var(--fuente-calibri-negrita);
     color: var(--color-secundario);
     font-size: 80%;
+    margin: 0px 0px 0px 10px;
 }
 
 .parrafo{
@@ -212,11 +214,12 @@ a{
     flex-direction: column-reverse;
     font-family: var(--fuente-calibri);
     font-size: 100%;
+    margin: 0px 0px 0px 10px;
 }
 
 .presentación_contenido_video{
     flex-direction:column-reverse;
-    margin:  2rem 0rem 1rem 0rem;
+    margin:  1rem 0rem;
 }
 
 .video{
@@ -228,15 +231,18 @@ a{
     object-fit: cover;
     border-radius: 10px;
     justify-content: center;
-    width:60%;
-    height: 100%;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    width: 70%;
+    height: 65%;
 }
 
 .slider{
     width: 100%;
-    margin: 1rem 0rem 2.5rem 0rem;
+    margin: 0rem 0rem;
     overflow: hidden;
     justify-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 .slider ul{
@@ -250,7 +256,7 @@ a{
     display: flex;
     width: calc(250px * 16);
     animation: scroll 20s linear infinite;
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 3px 0px;
 }
 
 .slide-track:hover {
@@ -274,36 +280,39 @@ a{
 
 .slider img{
     width: 60%;
-    height: 80%;
+    height: 200px;
     margin-right: 20px;
     border-radius: 18px;
+    flex-wrap: wrap-reverse;
+    display: flex;
 }
 
 @media (min-width: 780px) {
     .slider img{
-        height: 400px;
+        height: 300px;
     }
 }
 
 .Contenido_de_lado {
     display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap-reverse;
+    justify-content:center;
+    flex-wrap: wrap;
     align-items: center;
     font-family: var(--fuente-calibri);
-    margin:  2rem 0rem;
+    margin:  5px 5px;
     position: relative;
+    
 }
 
 .contenido {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    margin-left: 10px;
 }
 
 .imagen {
     width: 50%;
-    height: 400px;
+    height: 320px;
     margin-right: 10%;
     border-radius: 20px;
     display: flex;

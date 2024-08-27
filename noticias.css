@@ -65,7 +65,7 @@ body {
     display: flex;
     justify-content:space-between;
     flex-direction: column-reverse;
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
     position: relative;
 }
 
@@ -186,7 +186,8 @@ a{
     font-family: var(--fuente-calibri-negrita);
     font-size: none;
     color: var(--color-secundario);
-    font-size: 150%;
+    position: relative;
+    font-size: 120%;
 }
 
 .titulo_noticia{

@@ -66,7 +66,7 @@ body {
     display: flex;
     justify-content:space-between;
     flex-direction: column-reverse;
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
     position: relative;
 }
 
