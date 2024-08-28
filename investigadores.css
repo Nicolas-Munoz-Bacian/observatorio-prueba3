@@ -254,7 +254,7 @@ a{
 
 .card_integrante{
     background-color: var(--color-primario);
-    height: 480px;
+    height: 485px;
     width: 325px;
     overflow: hidden;
     border-radius: 10px;
